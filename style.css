@@ -1,0 +1,27 @@
+h1{
+	text-align: center;
+	font-size: 100px;
+}
+
+.imgbox{
+    margin-left: 40px
+}
+
+.pic{
+	float: left;
+	padding: 20px; 
+    background-image: url("PinkCurlyBorder.jpg");
+}
+
+
+@media all and (max-width: 400px){
+	body {
+		width: 100px;
+		background-color: pink;
+	}
+	.pic {
+		background-image: none;
+	}	
+}
+
+
