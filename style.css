@@ -14,14 +14,14 @@ h1{
 }
 
 
-@media all and (max-width: 400px){
-	body {
-		width: 100px;
-		background-color: pink;
+	@media all and (max-width: 400px){
+		body {
+			width: 100px;
+			background-color: pink;
+		}
+		.pic {
+			background-image: none;
+		}	
 	}
-	.pic {
-		background-image: none;
-	}	
-}
 
 
